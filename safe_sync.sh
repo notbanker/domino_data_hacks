@@ -4,14 +4,13 @@
 # This is an extra layer of protection over version control.
 # If the sync fails and somehow demands a reset or what-have-you, this might save you.
 #
-# To create a one-click sync on mac osx dock, do the following:
-#     1. Make this executable
+# To create a one-click safe domino sync on mac osx dock, do the following:
+#     1. chmod this file so it is executable
 #     2. Rename it with .app extension
-#     3. Drag into dock
-#     4. Rename back to sync_lib.sh
-#     5. In finder, right click on sync_lib.sh and "Get Info"
-#     6. Under the "open with" dropdown, select the terminal application
-# Unfortunately you'll have to repeat 5-6 every time you edit this file as your IDE will likely revert it.
+#     3. Drag into mac dock
+#     4. Rename back to original .sh extension
+#     5. In finder, right click on "Get Info"and under "Open with" menu, select the terminal application
+# Unfortunately you'll have to repeat the last step every time you edit this file as your IDE will likely revert it.
 
 
 # Usage:
