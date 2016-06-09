@@ -3,7 +3,9 @@ import random
 
 
 def amazing_feats():
-    """ Extract list of amazing feats performed by MacGyver"""
+    """ Extract list of amazing feats performed by MacGyver
+        Source: http://macgyver.wikia.com/wiki/List_of_problems_solved_by_MacGyver
+    """
     feats= list()
     with open( 'macgyver.html', "r" ) as f:
         for line in f.readlines():
