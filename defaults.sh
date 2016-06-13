@@ -2,6 +2,7 @@
 
 # Example of setting defaults without using Domino env. variables explicitly
 
+USER=$(whoami)
 if [[ $OSTYPE == *"linux" ]]      # Running on Domino, refine you use linux at home ;)
 then
     default_project="/mnt/${USER}/larry"   
