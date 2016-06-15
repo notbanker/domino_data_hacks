@@ -3,7 +3,7 @@
 # Create a file which sorts data sizes by letter, so we can order the // jobs sensibly
 
 data_dir="/whereyouputbigdatainputfiles"
-config_dir="/Users/n581512/project/my_project/config"
+config_dir="/Users/YOUR_USER/project/my_project/config"
 tmp_file="data_density.txt"
 ordering_file="letter_ordering.txt"
 
