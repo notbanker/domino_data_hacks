@@ -6,7 +6,6 @@
 #        call.sh <command> <arg1> <arg2>
 #        call.sh /mnt/USER/MYPROJECT/myscript.sh my_arg1 my_arg2
 
-USER=$(whoami)
 cmd=${1}
 arg1=${2}
 arg2=${3}
